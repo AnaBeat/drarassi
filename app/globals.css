@@ -8,6 +8,7 @@
   --color-cream: #fbf8f4;
   --color-white: #ffffff;
   --color-muted: #756d73;
+  --color-text: #9b7955;
 
   --background: var(--color-cream);
   --foreground: var(--color-black);
@@ -20,6 +21,7 @@
   --color-cream: var(--color-cream);
   --color-ink: var(--color-black);
   --color-muted: var(--color-muted);
+  --color-text: var(--color-text);
 
   --font-sans: var(--font-manrope);
   --font-serif: var(--font-cormorant);
