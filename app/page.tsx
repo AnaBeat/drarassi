@@ -117,194 +117,157 @@ export default function Home() {
         <div className="relative z-10 flex flex-1 items-center">
           <div className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
             <div className="max-w-2xl">
-              <p className="mb-7 text-xs font-semibold uppercase tracking-[0.25em] text-[#A78655] sm:text-sm">
-                Saúde íntima feminina
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#BE9D70]">
+                Cuidado com a saúde íntima feminina
               </p>
 
-              <h1 className="font-serif text-5xl font-normal leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
-                Mais bem-estar para todas as fases da sua vida.
+              <h1 className="font-serif text-4xl leading-tight text-[#302720] md:text-6xl">
+                Mais confiança para viver sem o receio dos escapes urinários.
               </h1>
 
-              <p className="mt-7 max-w-xl text-base leading-8 text-[#625951] sm:text-lg">
-                Cuidado individualizado para a saúde do assoalho pélvico, com
-                acolhimento, avaliação médica e tecnologia para promover mais
-                qualidade de vida.
+              <p className="mt-6 max-w-xl text-base leading-8 text-[#756D73] md:text-lg">
+                Perdas de urina ao rir, tossir, espirrar ou fazer esforços
+                merecem atenção. Conheça uma possibilidade de tratamento para o
+                fortalecimento do assoalho pélvico, com avaliação médica
+                individualizada.
               </p>
 
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href={whatsappLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#302720] px-7 py-4 text-sm font-semibold text-white transition hover:bg-[#514334]"
-                >
-                  Conheça o tratamento
-                  <span aria-hidden="true" className="ml-3">
-                    →
-                  </span>
-                </a>
-
-                <a
-                  href="#tecnologia"
-                  className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#8B7257] px-7 py-4 text-sm font-semibold transition hover:bg-white/50"
-                >
-                  Saiba mais
-                </a>
-              </div>
-
-              <p className="mt-8 text-xs tracking-wide text-[#756D73]">
-                CRM-GO 7931 · RQE 3747
-              </p>
+              <a
+                href="#contato"
+                className="mt-8 inline-flex rounded-full bg-[#BE9D70] px-8 py-4 font-semibold text-white transition hover:bg-[#a88a60]"
+              >
+                Agende uma avaliação
+              </a>
             </div>
           </div>
         </div>
       </section>
 
       {/* SEÇÃO TECNOLOGIA */}
-      <section
-        id="tecnologia"
-        className="scroll-mt-8 bg-[#FBF8F4] px-6 py-20 sm:py-28 lg:px-10"
-      >
-        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 lg:items-center lg:gap-20">
+      <section id="tecnologia" className="bg-[#FBF8F4] px-6 py-20">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#A78655]">
-              Cuidado individualizado
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#BE9D70]">
+              Tecnologia de fortalecimento pélvico
             </p>
 
-            <h2 className="mt-5 max-w-xl font-serif text-4xl font-normal leading-tight sm:text-5xl">
-              Mais atenção à saúde do seu assoalho pélvico.
+            <h2 className="font-serif text-3xl leading-tight text-[#302720] md:text-5xl">
+              Um cuidado que atua na musculatura do assoalho pélvico
             </h2>
 
-            <div className="mt-7 h-px w-12 bg-[#C5A46D]" />
-
-            <p className="mt-7 max-w-xl text-base leading-8 text-[#756D73]">
-              O assoalho pélvico tem um papel importante no suporte dos órgãos
-              pélvicos e no controle urinário. Mudanças ao longo da vida podem
-              afetar essa musculatura e o bem-estar.
+            <p className="mt-6 leading-8 text-[#756D73]">
+              O assoalho pélvico é formado por músculos que ajudam a sustentar
+              os órgãos da região e participam do controle urinário. Quando essa
+              musculatura está enfraquecida, podem ocorrer perdas involuntárias
+              de urina.
             </p>
 
-            <p className="mt-4 max-w-xl text-base leading-8 text-[#756D73]">
-              A avaliação médica individualizada ajuda a compreender suas
-              necessidades e a discutir as possibilidades de cuidado mais
-              adequadas para você.
+            <p className="mt-4 leading-8 text-[#756D73]">
+              A estimulação eletromagnética de alta intensidade provoca
+              contrações involuntárias da musculatura pélvica. O tratamento
+              busca auxiliar no fortalecimento dessa região e pode ser
+              considerado após avaliação médica.
             </p>
-
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-3 text-sm font-semibold text-[#302720] transition-colors duration-300 hover:text-[#A78655]"
-            >
-              Converse com a equipe
-              <span aria-hidden="true">→</span>
-            </a>
           </div>
 
-          <div className="relative overflow-hidden rounded-4xl border border-[#E7DCCF] bg-[#F0E7DC] p-8 sm:p-12">
-            <div className="absolute -right-12 -top-12 h-48 w-48 rounded-full border border-[#C5A46D]/40" />
-            <div className="absolute -bottom-16 -left-12 h-56 w-56 rounded-full border border-[#C5A46D]/40" />
+          <div className="rounded-3xl bg-[#F0E7DC] p-8 md:p-10">
+            <h3 className="font-serif text-2xl text-[#302720]">
+              Como é a sessão?
+            </h3>
 
-            <div className="relative flex min-h-64 flex-col justify-between sm:min-h-80">
-              <span className="text-xs uppercase tracking-[0.22em] text-[#A78655]">
-                Saúde da mulher
-              </span>
+            <ul className="mt-6 space-y-4 text-[#756D73]">
+              <li>
+                <span className="font-semibold text-[#302720]">
+                  Você permanece vestida.
+                </span>{" "}
+                A sessão é realizada sentada, sem necessidade de agulhas.
+              </li>
 
-              <div>
-                <p className="font-serif text-3xl leading-snug text-[#302720] sm:text-4xl">
-                  Cuidado que considera você por inteiro.
-                </p>
+              <li>
+                <span className="font-semibold text-[#302720]">
+                  A musculatura é estimulada.
+                </span>{" "}
+                A tecnologia promove contrações involuntárias do assoalho
+                pélvico.
+              </li>
 
-                <p className="mt-4 max-w-sm text-sm leading-7 text-[#756D73]">
-                  Informação, escuta e orientação médica em cada etapa do seu
-                  cuidado.
-                </p>
-              </div>
+              <li>
+                <span className="font-semibold text-[#302720]">
+                  Protocolo de tratamento.
+                </span>{" "}
+                São 6 sessões de aproximadamente 28 minutos, realizadas 2 vezes
+                por semana, conforme a avaliação e orientação médica.
+              </li>
 
-              <span className="text-sm tracking-[0.18em] text-[#A78655]">
-                BEM-ESTAR · ACOLHIMENTO · SAÚDE
-              </span>
-            </div>
+              <li>
+                <span className="font-semibold text-[#302720]">
+                  A indicação é individualizada.
+                </span>{" "}
+                A avaliação profissional define se o tratamento é adequado para
+                cada caso.
+              </li>
+            </ul>
+
+            <a
+              href="#contato"
+              className="mt-8 inline-flex rounded-full bg-[#BE9D70] px-7 py-3 font-semibold text-white transition hover:bg-[#a88a60]"
+            >
+              Saiba se o tratamento é indicado
+            </a>
           </div>
         </div>
       </section>
 
       {/* SEÇÃO BENEFÍCIOS */}
-      <section
-        id="beneficios"
-        className="scroll-mt-8 bg-[#F0E7DC] px-6 py-20 sm:py-28 lg:px-10"
-      >
-        <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#A78655]">
-              Qualidade de vida
+      <section id="beneficios" className="bg-[#F8F1E8] px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <div className="mx-auto mb-12 max-w-2xl text-center">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#BE9D70]">
+              Você não precisa ignorar os sintomas
             </p>
 
-            <h2 className="mt-5 font-serif text-4xl font-normal leading-tight sm:text-5xl">
-              Seu conforto também importa.
+            <h2 className="font-serif text-3xl text-[#302720] md:text-5xl">
+              Quando pequenos escapes começam a limitar sua rotina
             </h2>
 
-            <p className="mt-6 text-base leading-8 text-[#756D73]">
-              Alterações no assoalho pélvico podem fazer parte de diferentes
-              fases da vida. Reconhecer o que você sente é um primeiro passo
-              para buscar orientação.
+            <p className="mt-5 leading-8 text-[#756D73]">
+              A perda urinária pode afetar a segurança e a liberdade de realizar
+              atividades do dia a dia. Uma avaliação médica ajuda a entender o
+              que está acontecendo e quais cuidados podem ser indicados.
             </p>
           </div>
 
-          <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            <article className="rounded-2xl border border-[#DCCDBB] bg-[#FBF8F4] p-7 sm:p-8">
-              <span className="font-serif text-3xl text-[#A78655]">01</span>
+          <div className="grid gap-6 md:grid-cols-3">
+            {[
+              {
+                title: "Ao rir ou tossir",
+                description:
+                  "Pequenos escapes durante risadas, espirros, tosse ou outros esforços podem ser sinais de incontinência urinária.",
+              },
+              {
+                title: "Durante caminhadas e exercícios",
+                description:
+                  "O receio de perder urina pode fazer você evitar atividades que antes eram prazerosas.",
+              },
+              {
+                title: "Ao sentir urgência para urinar",
+                description:
+                  "A vontade súbita de ir ao banheiro, especialmente quando é difícil chegar a tempo, também merece avaliação.",
+              },
+            ].map((item) => (
+              <article
+                key={item.title}
+                className="rounded-3xl border border-[#E1D5C6] bg-white p-8"
+              >
+                <h3 className="font-serif text-2xl text-[#302720]">
+                  {item.title}
+                </h3>
 
-              <h3 className="mt-6 font-serif text-2xl">Perdas urinárias</h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#756D73]">
-                Pequenas perdas ao tossir, espirrar, rir ou praticar atividades
-                físicas merecem atenção e avaliação profissional.
-              </p>
-            </article>
-
-            <article className="rounded-2xl border border-[#DCCDBB] bg-[#FBF8F4] p-7 sm:p-8">
-              <span className="font-serif text-3xl text-[#A78655]">02</span>
-
-              <h3 className="mt-6 font-serif text-2xl">Pós-parto</h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#756D73]">
-                Após a gestação e o parto, o cuidado com o assoalho pélvico pode
-                fazer parte da recuperação, conforme avaliação médica.
-              </p>
-            </article>
-
-            <article className="rounded-2xl border border-[#DCCDBB] bg-[#FBF8F4] p-7 sm:p-8">
-              <span className="font-serif text-3xl text-[#A78655]">03</span>
-
-              <h3 className="mt-6 font-serif text-2xl">
-                Mudanças no tônus muscular
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-[#756D73]">
-                Sensações de menor sustentação ou mudanças no conforto íntimo
-                podem ser conversadas durante uma consulta.
-              </p>
-            </article>
-          </div>
-
-          <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-6 text-[#756D73]">
-            Cada caso precisa de avaliação individual. A indicação de tratamento
-            depende das necessidades, do histórico e da avaliação da paciente;
-            os resultados podem variar.
-          </p>
-
-          <div className="mt-10 text-center">
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#302720] px-8 py-4 text-sm font-semibold text-white transition hover:bg-[#514334]"
-            >
-              Quero conversar com a equipe
-              <span aria-hidden="true" className="ml-3">
-                →
-              </span>
-            </a>
+                <p className="mt-4 leading-7 text-[#756D73]">
+                  {item.description}
+                </p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
